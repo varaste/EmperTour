@@ -1,7 +1,26 @@
-.bback {
+body{ 
+    background: url('persepolis.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: fixed;
+
+  }
+
+
+
+
+/* .bback {
     background-image: url('persepolis.jpg');
     background-position: fixed;
-}
+    background-repeat: no-repeat;
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
 
 .pbtext {
     width: 500px;
@@ -76,7 +95,7 @@
 }
 
 .Rectangle-34 {
-    width: 1200px;
+    width: 100%;
     height: 72px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14);
     background-color: #6a1b9a;
